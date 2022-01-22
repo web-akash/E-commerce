@@ -1,0 +1,63 @@
+#fotter-part{
+    padding: 60px 0;
+    .item{
+        h4{
+            @include pfont(18px, 500, $fcolor);
+            margin-bottom: 30px;
+
+        }
+        h3{
+            @include pfont(14px, 400, #666);
+            margin-bottom: 15px;
+        }
+        h1{
+            @include pfont(26px, 700, $pcolor);
+            margin-bottom: 30px;
+        }
+        h6{
+            @include pfont(14px, 400, $fsubcolor);
+            line-height: 24px;
+            margin-bottom: 30px;
+        }
+        h4{
+            @include pfont(14px, 400, $fsubcolor);
+        }
+        ul{
+            .titel{
+                @include pfont(18px, 500, $fcolor);
+                margin-bottom: 15px;
+            }
+            li{
+                margin-bottom: 15px;
+                @include pfont(16px, 400, $fsubcolor);
+                transition: .4s;
+                &:hover{
+                    margin-left: 10px;
+                }
+
+            }
+        }
+    }
+    .icon{
+        margin-top: 30px;
+        padding-bottom: 60px;
+        i{
+            margin-right: 20px;
+        }
+    }
+    .copyp{
+        padding-top: 30px;
+        border-top: 1px solid #e1e1e1;
+        align-items: center
+    }
+    .copy{
+        
+        h1{
+            @include pfont(14px, 400, $fsubcolor);
+        }
+        
+    }
+    img{
+        float: right;
+    }
+}

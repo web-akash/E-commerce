@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,OAAO,EAAE,QAAQ;CAKpB;;AAND,AAEI,MAFE,CAEF,KAAK,CAAA;EACD,QAAQ,EAAE,QAAQ;CACrB",
+    "sources": [
+        "../scss/components/Deals_day.scss"
+    ],
+    "names": [],
+    "file": "Deals_day.css"
+}

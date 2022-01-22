@@ -1,0 +1,8 @@
+@mixin pfont($size, $weight, $color){
+    font-family: 'Poppins', sans-serif;
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+}
+
+

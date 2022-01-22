@@ -1,0 +1,33 @@
+#Newslatter{
+    background-color: #fff;
+    padding: 50px 0px;
+    border-bottom: 1px solid #e1e1e1;
+    .row{
+        align-items: center;
+    }
+    .details{
+        h1{
+            @include pfont(28px, 400, $fcolor);
+            margin-bottom: 7px;
+        }
+        h3{
+            @include pfont(14px, 400, $fsubcolor);
+            margin-bottom: 14px;
+            line-height: 24px;
+        }
+    }
+    .mb-3 {
+         margin-bottom: 0px !important;
+    }
+    .input-group-text {
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #fff;
+        text-align: center;
+        background-color: $pcolor;
+        border: 1px solid $pcolor;
+        border-radius: .25rem;
+    }
+}
